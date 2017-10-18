@@ -1,0 +1,47 @@
+body {
+    background-color: #ccc;
+}
+
+h3 {
+    margin-bottom: -15px;
+}
+.main {
+    height: 550px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 200px;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-family: serif;
+    color: #000;
+    background: #ccc;
+    line-height: 1.8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+button:focus {
+    outline: none
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+
+button.create {
+    margin-left: 300px;
+}
+
+button.view {
+    margin-left: 50px;
+}

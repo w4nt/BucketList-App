@@ -1,0 +1,45 @@
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 1.8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+button:focus {
+    outline: none
+}
+
+button.flat {
+    color: #000;
+    background-color: #fff;
+    margin-top: 150px;
+    margin-left: 325px;
+    border: none;
+}
+
+button.flat:hover {
+    font-weight: bold;
+}
